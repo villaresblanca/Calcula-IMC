@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <h1>CALCULADORA DE MASA CORPORAL</h1>
+    <form action="">
+        <label for="txtPeso">Peso:</label>
+        <input id="txtPeso" type="text" placeholder="Escribe tu peso en kg"> <br><br>
+
+        <label for="txtAltura">Altura:</label>
+        <input id="txtAltura" type="text" placeholder="Escribe tu altura en cm"> <br><br>
+
+        <input id="btnCalcular" type="submit" value="Calcular">
+    </form>
+    <br><br>
+    <img src="img/imc.jpg" alt="Tabla de IMC">
+
+
+
+
+
+    <script src="js/funcion-imc.js"></script>
+</body>
+</html>
+
+
+<!--
+Math.round(imc) -> redondea decimales
+document.getElementById() -> pilla la id escrita en el html y en js debe ser nombrada igual(?)
+en el label tiene el aributo for y se pone en el el nombre de la id del input para que esten vinculados(?)
+
+-->
