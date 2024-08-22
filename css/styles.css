@@ -1,0 +1,11 @@
+h1 {
+    color: #117c7c;
+    background-color: #82c0ff;
+    border: 0px solid black;
+    border-radius: 20px;
+    padding-left: 20px;
+    width: 50%;
+}
+.body-bck {
+    background-color: #fffbb2;
+}
