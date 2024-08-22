@@ -48,6 +48,17 @@ img {
     color: #55d7ee;
 }
 
+/*a ver si cosigo alinearlo todo arriba*/
+section div.d1-form {
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 20px 10px 0px;
+}
+section div.d2-img {
+    display: flex;
+    justify-content: flex-start;
+}
 
 
 
