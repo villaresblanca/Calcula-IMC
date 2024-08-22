@@ -7,6 +7,12 @@ h1 {
     padding-left: 20px;
     width: 50%;
 }
+/*section{
+    display: block;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    padding: 5px;
+}*/
 input{
     display: block;
     margin-top: 1%;
@@ -14,6 +20,10 @@ input{
     border: 1px solid #83971c;
     border-radius: 5px;
     padding: 5px;
+}
+input[type="submit"]{
+    color: #586217;
+    background-color: #cdea40;
 }
 
 /*estilo body*/
@@ -26,16 +36,16 @@ input{
 .d1-form {
     padding: 1%;
     background-color: #82c0ff;
+    width: 250px;
 }
 .d1-form label {
     color: #117c7c;
 }
-.d1-calcular{
-    color: #586217;
-    background-color: #cdea40;
-    border: 1px solid #83971c;
-    border-radius: 5px;
-    padding: 5px;
+
+/*Tabla IMC*/
+img {
+    display:block;
+    margin: auto;
 }
 
 
