@@ -1,7 +1,7 @@
 /*estilos genericos*/
 h1 {
-    color: #117c7c;
-    background-color: #82c0ff;
+    color: #9e63bd;
+    background-color: #8dd337;
     border: 0px solid black;
     border-radius: 20px;
     padding-left: 20px;
@@ -25,28 +25,30 @@ input[type="submit"]{
     color: #586217;
     background-color: #cdea40;
 }
+/*Tabla IMC*/
+img {
+    display:block;
+    margin: auto;
+}
 
 /*estilo body*/
 .body-bck {
     margin: 2% 2%;
+    background-image: url(../img/2.jpg);
     background-color: #fffbb2;
 }
 
 /*estilo section 1*/
 .d1-form {
     padding: 1%;
-    background-color: #82c0ff;
+    background-color: #e86d15;
     width: 250px;
 }
 .d1-form label {
-    color: #117c7c;
+    color: #55d7ee;
 }
 
-/*Tabla IMC*/
-img {
-    display:block;
-    margin: auto;
-}
+
 
 
 
